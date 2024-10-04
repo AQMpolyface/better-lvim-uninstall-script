@@ -22,9 +22,6 @@ if you want to directly delete everything directly (not recomended), you can use
 require: `bash` to execute the script
 
 
-
-if you wanna do it manually:
-
 ```sh
 curl https://raw.githubusercontent.com/AQMpolyface/better-lvim-uninstall-script/refs/heads/main/uninstall.sh > uninstall.sh
 chmod +x uninstall.sh
