@@ -69,8 +69,8 @@ read userInput
 
 if [ "$userInput" == "y" ]; then
   echo "starting command...(may take a while)"
-    sudo find / -name "*lvim*"
-    sudo find / -name "*lunarvim*"
+    sudo find / -name "*lvim*" 2>/dev/null
+    sudo find / -name "*lunarvim*" 2>/dev/null
     echo "all done! if there are more files, you can delete them manually"
     echo "ATTENTION: DO NOT MODIFY IF THERE ARE FILE IN /run/* , could break somthing"
     return 0
