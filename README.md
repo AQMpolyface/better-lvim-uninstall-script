@@ -6,6 +6,8 @@ This script doesnt delete dependencies, sorry.
 i took the template of the normal lunarvim uninstall script, but added the directory it doesn't delete.
 
 
+warning: as of friday october 4, this script works. Now if lunarvim decide to update and add/remove some directory they use, i will try to update the script. Feel free to tell me if the script is outdated.
+
 THIS ONLY WORKS ON LINUX; maybe works on other unix based system? please read the script before running it, i wont be responsible
 for any unwanted data loss.
 
