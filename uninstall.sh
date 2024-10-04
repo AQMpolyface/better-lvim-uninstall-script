@@ -62,8 +62,8 @@ rm -rf $HOME/.local/share/icons/hicolor/48x48/apps/lvim.svg
 rm -rf $HOME/.local/share/icons/hicolor/64x64/apps/lvim.svg
 rm -rf $HOME/.local/share/applications/lvim.desktop
 echo "done! do you want to run a command to find out if everything is correctly deleted?"
-echo 'the command is find / -name "*lvim*" and sudo find / -name "*lunarvim*"'
-echo "the command may take a while. y/N"
+echo 'the command is find / -name "*lvim*" and find / -name "*lunarvim*"'
+echo "those commands may take a while. y/N"
 
 read userInput
 
