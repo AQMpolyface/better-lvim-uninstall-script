@@ -1,13 +1,16 @@
 # better-lvim-uninstall-script
-i decided to make this script, because the normal uninstall script doesnt delete everything
+i decided to make this script, because the normal uninstall script doesn't delete everything
 
-i took the template of the normal lunarvim uninstall script, but it does not delete everything, at least on linux.
+i took the template of the normal lunarvim uninstall script, but added the directory it doesn't delete.
 
 
 THIS ONLY WORKS ON LINUX; maybe works on other unix based system? please read the script before running it, i wont be responsible
 for any unwanted data loss.
 
 basics: 
+
+everything is no by default. you need to explicitely put y when prompted for this script to work.
+
 if you run the script ithout any argument, it will print every directory this script will target, then ask you if you want to continue. 
 The script will ask you if you want to run those commands after finishing:
 
