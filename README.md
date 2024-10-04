@@ -23,11 +23,11 @@ require: `bash` to execute the script
 if you wanna do it manually:
 
 ```sh
-curl https://raw.githubusercontent.com/AQMpolyface/better-lvim-uninstall-script/main/uninstall.sh > uninstall.sh
+curl https://raw.githubusercontent.com/AQMpolyface/better-lvim-uninstall-script/refs/heads/main/uninstall.sh > uninstall.sh
 chmod +x uninstall.sh
 ./uninstall.sh
 ```
 one liner: 
 ```sh
-curl https://raw.githubusercontent.com/AQMpolyface/better-lvim-uninstall-script/main/uninstall.sh | sh
+curl https://raw.githubusercontent.com/AQMpolyface/better-lvim-uninstall-script/refs/heads/main/uninstall.sh | sh
 ```
