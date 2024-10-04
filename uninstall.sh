@@ -61,16 +61,16 @@ rm -rf $HOME/.local/share/icons/hicolor/32x32/apps/lvim.svg
 rm -rf $HOME/.local/share/icons/hicolor/48x48/apps/lvim.svg
 rm -rf $HOME/.local/share/icons/hicolor/64x64/apps/lvim.svg
 rm -rf $HOME/.local/share/applications/lvim.desktop
-echo "done! do you want to run a command to find out if everything is correctly deleted? (require root)"
-echo 'the command is sudo find / -name "*lvim*" and sudo find / -name "*lunarvim*"'
+echo "done! do you want to run a command to find out if everything is correctly deleted?"
+echo 'the command is find / -name "*lvim*" and sudo find / -name "*lunarvim*"'
 echo "the command may take a while. y/N"
 
 read userInput
 
 if [ "$userInput" == "y" ]; then
   echo "starting command...(may take a while)"
-    sudo find / -name "*lvim*" 2>/dev/null
-    sudo find / -name "*lunarvim*" 2>/dev/null
+     find / -name "*lvim*" 2>/dev/null
+     find / -name "*lunarvim*" 2>/dev/null
     echo "all done! if there are more files, you can delete them manually"
     echo "ATTENTION: DO NOT MODIFY IF THERE ARE FILE IN /run/* , could break somthing"
     return 0
