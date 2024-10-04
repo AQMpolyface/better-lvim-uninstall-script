@@ -1,6 +1,8 @@
 # better-lvim-uninstall-script
 i decided to make this script, because the normal uninstall script doesn't delete everything
 
+This script doesnt delete dependencies, sorry.
+
 i took the template of the normal lunarvim uninstall script, but added the directory it doesn't delete.
 
 
