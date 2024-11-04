@@ -90,7 +90,7 @@ echo $HOME/.cache/lvim.bak
 echo $HOME/.cache/lvim.old
 echo $HOME/.config/lvim
 echo $HOME/.config/lvim.bak
-echo $HOME/.config/lvim.olde 
+echo $HOME/.config/lvim.olde
 
 echo "file the normal script wouldnt delete"
 echo $HOME/.local/share/lvim/
